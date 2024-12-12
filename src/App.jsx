@@ -5,7 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Navbar from './Componants/Navbar';
 import Footer from './Componants/Footer';
-import Sexual_health from './pages/sexual_health';
+import Sexual_health from './pages/Sexual_health';
 
 
 
