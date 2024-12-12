@@ -27,7 +27,7 @@ export default function Sexual_health() {
   }, [darkMode]);
 
   return (
-    <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-800'} max-w-7xl mx-auto p-6`}>
+    <div className={`${darkMode ? 'bg-gray-900 text-blue-400' : 'bg-gray-100 text-gray-800'} max-w-7xl mx-auto p-6`}>
       <div className="flex justify-between items-center mb-8">
         <div className="text-center">
           <h1 className="text-3xl font-bold">Menstrual Health and Hygiene: Research Facts</h1>

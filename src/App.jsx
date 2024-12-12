@@ -14,9 +14,9 @@ export default function App() {
   <BrowserRouter>
   <Navbar />
   <Routes>
-  <Route path='/' element={<Home />} />
-  <Route path='/Contact' element={<Contact />} />
-  <Route path='/About' element={<About />} />
+  <Route path="/" element={<Home />} />
+  <Route path="/Contact" element={<Contact />} />
+  <Route path="/About" element={<About />} />
   <Route path="/Sexual_health" element={<Sexual_health />} />
     </Routes>
     <Footer />
