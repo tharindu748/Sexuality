@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const HomePage = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -72,8 +74,8 @@ const HomePage = () => {
 
     <h3 className="text-2xl font-medium mt-6">Key Topics Covered</h3>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4">
-      {/* Security Practices */}
-      <a href="#security-practices" className="group text-center">
+      {/* ලිංගික සෞඛ්‍ය */}
+      <Link to="/Sexual_health" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_security_image.jpg" // Replace with your image source
@@ -81,11 +83,11 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Security Practices</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ලිංගික සෞඛ්‍ය</h4>
+      </Link>
 
-      {/* Right to Worship */}
-      <a href="#right-to-worship" className="group text-center">
+      {/* කැමැත්ත */}
+      <Link to="/Consent" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_worship_image.jpg" // Replace with your image source
@@ -93,23 +95,23 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Right to Worship</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">කැමැත්ත</h4>
+      </Link>
 
-      {/* Health and Hygiene */}
-      <a href="#health-and-hygiene" className="group text-center">
+      {/* ආරක්ෂිත පිළිවෙත් */}
+      <Link href="/Safe_practices" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src="path_to_health_image.jpg" // Replace with your image source
+            src="/sf.jsx" // Replace with your image source
             alt="Health and Hygiene"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Health and Hygiene</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ආරක්ෂිත පිළිවෙත්</h4>
+      </Link>
 
-      {/* Confidential Screening */}
-      <a href="#confidential-screening" className="group text-center">
+      {/* ප්‍රජනක අයිතිය */}
+      <Link href="/Reproductiverights" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_screening_image.jpg" // Replace with your image source
@@ -117,11 +119,11 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Confidential Screening</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ප්‍රජනක අයිතිය</h4>
+      </Link>
 
-      {/* Counseling on Sexual Health */}
-      <a href="#sexual-health-counseling" className="group text-center">
+      {/*ගෞරනනීය සන්නිවේදනය */}
+      <Link href="/Respectful_communication" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_counseling_image.jpg" // Replace with your image source
@@ -129,11 +131,11 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Sexual Health Counseling</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ගෞරනනීය සන්නිවේදනය</h4>
+      </Link>
 
-      {/* Open Discussions with Parents */}
-      <a href="#open-discussions" className="group text-center">
+      {/* ඔසප් සෞඛ්‍ය හා සනීපාරක්ෂාව */}
+      <Link href="/MenstrualHealthandHygiene" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_discussions_image.jpg" // Replace with your image source
@@ -141,11 +143,11 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Open Discussions with Parents</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ඔසප් සෞඛ්‍ය හා සනීපාරක්ෂාව</h4>
+      </Link>
 
-      {/* Mental Health Support */}
-      <a href="#mental-health-support" className="group text-center">
+      {/* සිසුන් සදහා රහස්‍ය පරීක්ෂණ සහ උපදෙස් සේවාව */}
+      <Link href="/Confidential_Screenings_and_Counseling_Services_for_Students" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_mental_health_image.jpg" // Replace with your image source
@@ -153,11 +155,11 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Mental Health Support</h4>
-      </a>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">සිසුන් සදහා රහස්‍ය පරීක්ෂණ සහ උපදෙස් සේවාව</h4>
+      </Link>
 
-      {/* Youth Contributions */}
-      <a href="#youth-contributions" className="group text-center">
+      {/*ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම*/}
+      <Link href="/Seeking_Advice_on_Sexual_Health_Matters" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src="path_to_youth_image.jpg" // Replace with your image source
@@ -165,10 +167,36 @@ const HomePage = () => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>
-        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">Youth Contributions</h4>
-      </a>
-    </div>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම</h4>
+      </Link>
 
+
+          {/*දෙමාපියන් සහ ප්‍රජාව සමඟ විවෘත සාකච්ඡා*/}
+          <Link href="/Open_Discussions_with_parents_and_the_community" className="group text-center">
+        <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
+          <img
+            src="path_to_youth_image.jpg" // Replace with your image source
+            alt="Youth Contributions"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">දෙමාපියන් සහ ප්‍රජාව සමඟ විවෘත සාකච්ඡා</h4>
+      </Link>
+
+
+
+          {/*ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම*/}
+          <Link href="/mental_well_being_related_to_Sexually" className="group text-center">
+        <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
+          <img
+            src="path_to_youth_image.jpg" // Replace with your image source
+            alt="Youth Contributions"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <h4 className="mt-2 text-lg font-semibold group-hover:text-gray-700">ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම</h4>
+      </Link>
+      </div>
     {/* <p className="mt-4 text-lg">
       The digital learning module provides an engaging, self-paced experience where students can access information about sexual and reproductive health in a safe and supportive environment.
     </p>

@@ -5,6 +5,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Navbar from './Componants/Navbar';
 import Footer from './Componants/footer';
+import Sexual_health from './pages/sexual_health';
+
+
 
 export default function App() {
   return (
@@ -14,6 +17,7 @@ export default function App() {
   <Route path='/' element={<Home />} />
   <Route path='/Contact' element={<Contact />} />
   <Route path='/About' element={<About />} />
+  <Route path="/Sexual_health" element={<Sexual_health />} />
     </Routes>
     <Footer />
     </BrowserRouter>

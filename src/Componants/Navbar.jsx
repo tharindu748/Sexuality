@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="/" className="text-white hover:text-gray-400">Home</a>
           <a href="/About" className="text-white hover:text-gray-400">About</a>
           {/* <a href="#services" className="text-white hover:text-gray-400">Services</a> */}
-          <a href="#contact" className="text-white hover:text-gray-400">Contact</a>
+          <a href="/Contact" className="text-white hover:text-gray-400">Contact</a>
         </div>
 
         {/* Mobile menu button */}
@@ -37,10 +37,10 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden">
-          <a href="#home" className="block text-white p-2 hover:bg-gray-700">Home</a>
-          <a href="#about" className="block text-white p-2 hover:bg-gray-700">About</a>
+          <a href="/" className="block text-white p-2 hover:bg-gray-700">Home</a>
+          <a href="/About" className="block text-white p-2 hover:bg-gray-700">About</a>
           {/* <a href="#services" className="block text-white p-2 hover:bg-gray-700">Services</a> */}
-          <a href="#contact" className="block text-white p-2 hover:bg-gray-700">Contact</a>
+          <a href="/Contact" className="block text-white p-2 hover:bg-gray-700">Contact</a>
         </div>
       )}
     </nav>
