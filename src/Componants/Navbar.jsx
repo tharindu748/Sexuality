@@ -14,8 +14,8 @@ const Navbar = () => {
 
         {/* Menu for larger screens */}
         <div className="hidden md:flex space-x-8">
-          <a href="#home" className="text-white hover:text-gray-400">Home</a>
-          <a href="#about" className="text-white hover:text-gray-400">About</a>
+          <a href="/" className="text-white hover:text-gray-400">Home</a>
+          <a href="/About" className="text-white hover:text-gray-400">About</a>
           {/* <a href="#services" className="text-white hover:text-gray-400">Services</a> */}
           <a href="#contact" className="text-white hover:text-gray-400">Contact</a>
         </div>

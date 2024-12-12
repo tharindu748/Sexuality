@@ -27,7 +27,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className={`${isDarkMode ? 'bg-gray-900 text-white' : 'bg-slate-300 text-black'}`}>
+    <div className={`${isDarkMode ? 'bg-gray-900 text-white' : 'bg-slate-600 text-black'}`}>
       {/* Navbar */}
       <nav className="p-4">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center">
@@ -177,15 +177,7 @@ const HomePage = () => {
     </p> */}
   </div>
 </section>
-
-
-      {/* Footer Section */}
-      <footer className="bg-gray-800 text-white py-4">
-        <div className="max-w-screen-xl mx-auto text-center">
-          <p>&copy; 2024 Sexuality Health Awareness Project | All Rights Reserved</p>
-        </div>
-      </footer>
-    </div>
+</div>
   );
 };
 
