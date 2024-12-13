@@ -66,9 +66,8 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="text-center py-12">
         <div className="max-w-screen-xl mx-auto px-4">
-          <h1 className="text-4xl font-bold">Sexual and Reproductive Health Awareness</h1>
-          <p className="mt-4 text-xl">
-            A Comprehensive Digital Learning Module for Young Adults (Ages 20-27)
+          <h1 className="text-4xl font-bold">ලිංගික හා ප්‍රජනන සෞඛ්‍ය පිළිබඳ දැනුවත් කිරීම</h1>
+          <p className="mt-4 text-xl">විශ්ව විද්‍යාල තරුණ ප්‍රජාව (වයස 20-27) දැනුවත් කිරීම සඳහා පුළුල් ඩිජිටල් ඉගෙනුම් මොඩියුලය.
           </p>
         </div>
       </section>
@@ -109,7 +108,7 @@ const HomePage = () => {
       </Link>
 
       {/* ආරක්ෂිත පිළිවෙත් */}
-      <Link href="/Safe_practices" className="group text-center">
+      <Link to="/Safe_practices" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Safe_practices}// Replace with your image source
@@ -121,7 +120,7 @@ const HomePage = () => {
       </Link>
 
       {/* ප්‍රජනක අයිතිය */}
-      <Link href="/Reproductiverights" className="group text-center">
+      <Link to="/ReproductiveRights" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={reproductive_right} // Replace with your image source
@@ -133,7 +132,7 @@ const HomePage = () => {
       </Link>
 
       {/*ගෞරනනීය සන්නිවේදනය */}
-      <Link href="/Respectful_communication" className="group text-center">
+      <Link to="/Respectful_communication" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Respectful}// Replace with your image source
@@ -145,7 +144,7 @@ const HomePage = () => {
       </Link>
 
       {/* ඔසප් සෞඛ්‍ය හා සනීපාරක්ෂාව */}
-      <Link href="/MenstrualHealthandHygiene" className="group text-center">
+      <Link to="/MenstrualHealthandHygiene" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Menstrual_health} // Replace with your image source
@@ -169,7 +168,7 @@ const HomePage = () => {
       </Link>
 
       {/*ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම*/}
-      <Link href="/Seeking_Advice_on_Sexual_Health_Matters" className="group text-center">
+      <Link to="/Seeking_Advice" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Seeking_Advice_on_Sexual} // Replace with your image source
@@ -182,7 +181,7 @@ const HomePage = () => {
 
 
           {/*දෙමාපියන් සහ ප්‍රජාව සමඟ විවෘත සාකච්ඡා*/}
-          <Link href="/Open_Discussions_with_parents_and_the_community" className="group text-center">
+          <Link to="/Open_Discussions_with_parents_and_the_community" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Open_Discussions}// Replace with your image source
@@ -196,7 +195,7 @@ const HomePage = () => {
 
 
           {/*ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම*/}
-          <Link href="/mental_well_being_related_to_Sexually" className="group text-center">
+          <Link to="/Mental" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
             src={Mental_well_being} // Replace with your image source
