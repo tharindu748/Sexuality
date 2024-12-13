@@ -5,6 +5,11 @@ import Sexual_health from './image/Sexual_health.png';
 import Menstrual_health from './image/Menstrual_health.png'; 
 import Mental_well_being from './image/Mental_well_being.png';
 import Seeking_Advice_on_Sexual from './image/Seeking_Advice_on_Sexual.png';
+import Counseling_Services_for_Students from './image/Counseling_Services_for_Students.png';
+import Open_Discussions from './image/Open_Discussions.png';
+import Respectful from './image/Respectful.png';
+import Consent from './image/Consent.png';
+import Safe_practices from './image/Safe_practices.png';
 
 
 const HomePage = () => {
@@ -95,7 +100,7 @@ const HomePage = () => {
       <Link to="/Consent" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src="path_to_worship_image.jpg" // Replace with your image source
+            src={Consent}// Replace with your image source
             alt="Right to Worship"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -107,7 +112,7 @@ const HomePage = () => {
       <Link href="/Safe_practices" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src="/sf.jsx" // Replace with your image source
+            src={Safe_practices}// Replace with your image source
             alt="Health and Hygiene"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -131,7 +136,7 @@ const HomePage = () => {
       <Link href="/Respectful_communication" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src="path_to_counseling_image.jpg" // Replace with your image source
+            src={Respectful}// Replace with your image source
             alt="Sexual Health Counseling"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -155,7 +160,7 @@ const HomePage = () => {
       <Link href="/Confidential_Screenings_and_Counseling_Services_for_Students" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src={Menstrual_health} // Replace with your image source
+            src={Counseling_Services_for_Students} // Replace with your image source
             alt="Mental Health Support"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
@@ -180,7 +185,7 @@ const HomePage = () => {
           <Link href="/Open_Discussions_with_parents_and_the_community" className="group text-center">
         <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full overflow-hidden">
           <img
-            src="path_to_youth_image.jpg" // Replace with your image source
+            src={Open_Discussions}// Replace with your image source
             alt="Youth Contributions"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />

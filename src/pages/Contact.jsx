@@ -52,9 +52,9 @@ const contacts = [
   },
   {
     // name: "Kavindu",
-    id: "",
+    id: "2021ba25345",
     topic: "දෙමාපියන් සහ ප්‍රජාව සමඟ විවෘත සාකච්ඡා (Open Discussions with Parents and the Community)",
-    email: "",
+    email: "2021ba25345@stu.cmb.ac.lk",
   },
   {
     // name: "Madusanka",
