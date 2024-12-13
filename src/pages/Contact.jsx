@@ -5,7 +5,7 @@ const contacts = [
   {
     // name: "Biguni",
     id: "2021ba24938",
-    topic: "ලිංගික සෞඛ්‍ය  (Sexual Health)",
+    topic: "ලිංගික සෞඛ්‍ය (Sexual Health)",
     email: "2021ba24938@stu.cmb.ac.lk",
   },
   {
@@ -47,7 +47,7 @@ const contacts = [
   {
     // name: "Yashodhi",
     id: "2021ba24932",
-    topic: "ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම( Seeking Advice on Sexual Health Matters)",
+    topic: "ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම ( Seeking Advice on Sexual Health Matters)",
     email: "2021ba24932@stu.cmb.ac.lk",
   },
   {
@@ -59,9 +59,16 @@ const contacts = [
   {
     // name: "Madusanka",
     id: "2021ba24942",
-    topic: "ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම( Mental Well-being Related to Sexuality)",
-    email: "2021ba24942@stu.b.ac.lk",
+    topic: "ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම ( Mental Well-being Related to Sexuality)",
+    email: "2021ba24942@stu.cmb.ac.lk",
   },
+  {
+    // name: "Deshanjaya ",
+    id: "2021ba25345",
+    topic: "ආරක්ෂිත පිළිවෙත් (Safe Practices )",
+    email: "2021ba25345@stu.cmb.ac.lk",
+  },
+
 ];
 
 const ContactPage = () => {
