@@ -117,7 +117,7 @@ const ContactPage = () => {
               } shadow-lg rounded-lg p-6 hover:shadow-xl transition duration-300`}
             >
               <h2 className="text-xl font-semibold mb-2">
-                {contact.name} ({contact.id})
+                {contact.name} {contact.id}
               </h2>
               <p className="mb-4">{contact.topic}</p>
               {contact.email ? (
