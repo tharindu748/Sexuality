@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
-import E3 from './Images/E1.jpg'
-
+import E1 from './Images/E1.jpg';
+import E2 from './Images/E2.jpg';
+import E4 from './Images/E4.jpg';
 
 export default function Confidential_S() {
   const [darkMode, setDarkMode] = useState(false);
@@ -45,8 +46,8 @@ export default function Confidential_S() {
 
          <div className="flex justify-center items-center">
            <img
-             src={E3}
-             alt="Illustration"
+             src={E1}
+             alt="e1"
              className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
            />
          </div>
@@ -83,6 +84,15 @@ export default function Confidential_S() {
   <p><strong>විද්‍යුත් තැපැල් ලිපිනය:</strong> <a href="mailto:info@fpasanet.org" className="text-blue-500">info@fpasanet.org</a></p>
   <p><strong>වෙබ් අඩවිය:</strong> <a href="http://www.fpasanet.org" target="_blank" rel="noopener noreferrer" className="text-blue-500">www.fpasanet.org</a></p>
 </div>
+<br></br>
+
+<div className="flex justify-center items-center">
+           <img
+             src={E2}
+             alt="e2"
+             className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+           />
+         </div>
 
 <br>
 </br>
@@ -128,6 +138,15 @@ export default function Confidential_S() {
   <p><strong>සම්බන්ධතා අංකය:</strong>+94 112 667 163/+94 112 665 277</p>
   <p><strong>විද්‍යුත් තැපැල් ලිපිනය:</strong> <a href="infonsacpsim@gmail.com" className="text-blue-500">infonsacpsim@gmail.com</a></p>
   <p className="font-semibold">ලිංගාශ්‍රිත රෝග පිළිබඳව රහස්‍ය පරික්ෂණ සහ උපදේශන සේවා මෙහිදී සිදු කර ගත හැක.</p>
+
+  <div className="flex justify-center items-center">
+           <img
+             src={E4}
+             alt="e1"
+             className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+           />
+         </div>
+
 </div>
 
 <br>
