@@ -36,7 +36,7 @@ export default function App() {
   <Route path="/Respectful_communication"element={<Respectful_communication />} />
   <Route path="/MenstrualHealthandHygiene" element={<MenstrualHealthandHygiene/>} />
   <Route path="/Open_Discussions_with_parents_and_the_community" element={<Open_Discussions_with_parents_and_the_community/>} />
-  <Route path="/Confidential_S"S element={<Confidential_S/>} />
+  <Route path="/Confidential_S" element={<Confidential_S/>} />
 
 
 
