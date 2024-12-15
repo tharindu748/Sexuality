@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 // import d1 from './images/d1.jpg';
-import d2 from './images/d2.jpg';
+// import d2 from './images/d2.jpg';
 // import d3 from './images/d3.jpg';
-import d4 from './images/d4.jpg';
+// import d4 from './images/d4.jpg';
 
 export default function Confidential_S() {
   const [darkMode, setDarkMode] = useState(false);
@@ -43,13 +43,14 @@ export default function Confidential_S() {
           </button>
         </header>
         <main className="p-6">
-         {/* <br></br><div className="flex justify-center items-center">
-  <img
+         <br></br>
+  <div className="flex justify-center items-center">
+  {/* <img
     src={d1}
     alt="Illustration"
     className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-  />
-</div> */}
+  /> */}
+</div>
 
          <br></br>
          <p className='text-justify'>
@@ -138,11 +139,11 @@ export default function Confidential_S() {
   <p><strong>විද්‍යුත් තැපැල් ලිපිනය:</strong> <a href="infonsacpsim@gmail.com" className="text-blue-500">infonsacpsim@gmail.com</a></p>
 <br></br>
 <div className="flex justify-center items-center">
-                    <img
+                    {/* <img
                       src={d4}
                       alt="Illustration"
                       className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-                    />
+                    /> */}
                   </div>
                   <br></br>
                   <p className="font-semibold">ලිංගාශ්‍රිත රෝග පිළිබඳව රහස්‍ය පරික්ෂණ සහ උපදේශන සේවා මෙහිදී සිදු කර ගත හැක.</p>
