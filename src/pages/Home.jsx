@@ -127,13 +127,13 @@ const HomePage = () => {
 };
 
 const topics = [
-  { title: 'ලිංගික සෞඛ්ෂක්‍ය', image: Sexual_health, link: '/Sexual_health' },
+  { title: 'ලිංගික සෞඛ්‍ය ', image: Sexual_health, link: '/Sexual_health' },
   { title: 'කැමැත්ත', image: Consent, link: '/Consent' },
   { title: 'ආරක්ෂිත පිළිවෙත්', image: Safe_practices, link: '/Safe_practices' },
-  { title: 'ප්්‍රජනක අයිතිය', image: reproductive_right, link: '/ReproductiveRights' },
+  { title: 'ප්්‍රජනක අයිතිය', image: ReproductiveRights, link: '/ReproductiveRights' },
   { title: 'ගෞරනනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
-  { title: 'ඔසප් සෞඛ්ෂක්‍ය', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
-  { title: 'සිසුන් සදහා උපදෙස්', image: Counseling_Services_for_Students, link: '/Counseling_Services' },
+  { title: 'ඔසප් සෞඛ්‍ය ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
+  { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
   { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
   { title: 'විවෘත සාකච්ඡා', image: Open_Discussions, link: '/Open_Discussions' },
   { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
