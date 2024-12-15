@@ -42,7 +42,8 @@ export default function MenstrualHealthandHygiene() {
         </header>
     
  <main className="p-6">
-  <br></br>
+
+
 
  <div className="flex justify-center items-center">
   <img
@@ -52,7 +53,7 @@ export default function MenstrualHealthandHygiene() {
   />
 </div>
         <section>
-          { <h2 className="text-xl font-semibold mb-4">ඔසප් සෞඛ්‍යය සහ සනීපාරක්ෂාව</h2> }
+          
           <p className='text-justify'>
             <strong>About:</strong> ÷ තරුණ වැඩිහිටි (වයස 20-27) සදහා ඔසප් චක්‍රය හා සනීපාරක්ෂාව පිළිබඳව දැනුවත් කිරීම,ඒ ආශ්‍රිත මනා කළමනාකරණය හා ඒ ආශ්‍රිත පවතින ගැටලු යනාදිය සම්බන්ධව මෙහිදී සාකච්ඡා කරනු ලබයි.         
           </p>
