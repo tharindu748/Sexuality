@@ -18,7 +18,6 @@ import Open_Discussions_with_parents_and_the_community from './pages/Open_Discus
 // import ReproductiveRights from './pages/ReproductiveRights';
 
 
-
 export default function App() {
   return (
   <BrowserRouter>
@@ -37,9 +36,6 @@ export default function App() {
   <Route path="/MenstrualHealthandHygiene" element={<MenstrualHealthandHygiene/>} />
   <Route path="/Open_Discussions_with_parents_and_the_community" element={<Open_Discussions_with_parents_and_the_community/>} />
   <Route path="/Confidential_S" element={<Confidential_S/>} />
-
-
-
     </Routes>
     <Footer />
     </BrowserRouter>
