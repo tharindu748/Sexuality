@@ -44,12 +44,13 @@ export default function Confidential_S() {
         </header>
         <main className="p-6">
          <br></br><div className="flex justify-center items-center">
-                    <img
-                      src={d1}
-                      alt="Illustration"
-                      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-                    />
-                  </div>
+  <img
+    src={d1}
+    alt="Illustration"
+    className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+  />
+</div>
+
          <br></br>
          <p className='text-justify'>
             <strong>හැඳින්වීම:</strong> තරුණ වැඩිහිටියන්(20-27) සඳහා ලිංගික හා ප්‍රජනක සෞඛ්‍ය අධ්‍යාපනයේ අත්‍යවශ්‍ය අංගයන් වන්නේ රහසිගත පරීක්ෂණ සහ උපදේශන සේවායි. මෙම සේවාවන් සිසුන්ට ඔවුන්ගේ ලිංගික සෞඛ්‍යය පිළිබඳ තොරතුරු, සහය සහ වෛද්‍ය ප්‍රතිකාර ලබා ගැනීමට ආරක්ෂිත අවකාශයක් සලසා දෙයි. මෙම අංශය මෙම සේවාවන්හි වැදගත්කම, ඒවාට ප්‍රවේශ විය හැකි ආකාරය සහ ඒවායින් තරුණ වැඩිහිටියන්ට ලබා දෙන ප්‍රතිලාභ ගවේෂණය කරනු ඇත.        
