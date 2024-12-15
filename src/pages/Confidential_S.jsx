@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import d1 from './images/d1.jpg';
 import d2 from './images/d2.jpg';
-import d3 from './images/d3.jpg';
+// import d3 from './images/d3.jpg';
 import d4 from './images/d4.jpg';
 
 export default function Confidential_S() {
@@ -85,17 +85,17 @@ export default function Confidential_S() {
 <br>
 </br>
 
-    <div className="flex justify-center items-center gap-4 p-4">
+    <div className="flex justify-center items-center ">
   <img
     src={d2}
     alt="Logo"
     className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"  u can extend gap beetween image 
   />
-  <img
+  {/* <img
     src={d3}
     alt="fd"
     className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-  />
+  /> */}
 </div>
 <br></br>
 <div className="mb-4">
