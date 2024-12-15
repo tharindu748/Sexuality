@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+
 import React, { useState } from 'react';
 
 const Navbar = () => {
