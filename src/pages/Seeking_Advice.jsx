@@ -62,7 +62,7 @@ const SeekingAdvice = () => {
          <section className="mt-6">
       <h2 className="text-xl font-semibold mb-4">පවුල් සෞඛ්‍ය සංවිධාන සංගමය </h2>
 
-      <div className="flex justify-center items-center gap-10 p-10">
+      <div className="flex justify-center items-center gap-4 p-4">
   <img
     src={fpa}
     alt="FPA Logo"
@@ -131,7 +131,7 @@ const SeekingAdvice = () => {
       <li>ලිංගිකව සම්ප්‍රේෂණය වන ආසාදන (ලිංගාශ්‍රිත රෝග) සඳහා උපදේශනය</li>
       <li>ශ්‍රී ලංකා ජාතික ලිංගාශ්‍රිත රෝග හා ඒඩ්ස් මර්දන වැඩසටහන්</li>
     </ul>
-    <div className="flex justify-center items-center gap-10 p-10">
+    <div className="flex justify-center items-center gap-4 p-4">
   <img
     src={a4}
     alt="FPA Logo"
