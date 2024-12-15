@@ -15,6 +15,7 @@ import Consent from './pages/Consent';
 import Safe_practices from './pages/Safe_practices';
 import Confidential_S from './pages/Confidential_S';
 import Open_Discussions_with_parents_and_the_community from './pages/Open_Discussions_with_parents_and_the_community';
+// import ReproductiveRights from './pages/ReproductiveRights';
 
 
 

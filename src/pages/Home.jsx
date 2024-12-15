@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import reproductive_right from './image/reproductive_right.png';
+import ReproductiveRights from './image/reproductive_right.png';
 import Sexual_health from './image/Sexual_health.png';
 import Menstrual_health from './image/Menstrual_health.png';
 import Mental_well_being from './image/Mental_well_being.png';
 import Seeking_Advice_on_Sexual from './image/Seeking_Advice_on_Sexual.png';
-import Counseling_Services_for_Students from './image/Counseling_Services_for_Students.png';
+import Confidential_S from './image/Counseling_Services_for_Students.png';
 import Open_Discussions from './image/Open_Discussions.png';
 import Respectful from './image/Respectful.png';
 import Consent from './image/Consent.png';
@@ -138,5 +138,6 @@ const topics = [
   { title: 'විවෘත සාකච්ඡා', image: Open_Discussions, link: '/Open_Discussions' },
   { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
 ];
+
 
 export default HomePage;
