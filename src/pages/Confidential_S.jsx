@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
-// import d1 from './images/d1.jpg';
-// import d2 from './images/d2.jpg';
-// import d3 from './images/d3.jpg';
-// import d4 from './images/d4.jpg';
+
 
 export default function Confidential_S() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,15 +41,9 @@ export default function Confidential_S() {
         </header>
         <main className="p-6">
          <br></br>
-  <div className="flex justify-center items-center">
-  {/* <img
-    src={d1}
-    alt="Illustration"
-    className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-  /> */}
-</div>
+  
 
-         <br></br>
+
          <p className='text-justify'>
             <strong>හැඳින්වීම:</strong> තරුණ වැඩිහිටියන්(20-27) සඳහා ලිංගික හා ප්‍රජනක සෞඛ්‍ය අධ්‍යාපනයේ අත්‍යවශ්‍ය අංගයන් වන්නේ රහසිගත පරීක්ෂණ සහ උපදේශන සේවායි. මෙම සේවාවන් සිසුන්ට ඔවුන්ගේ ලිංගික සෞඛ්‍යය පිළිබඳ තොරතුරු, සහය සහ වෛද්‍ය ප්‍රතිකාර ලබා ගැනීමට ආරක්ෂිත අවකාශයක් සලසා දෙයි. මෙම අංශය මෙම සේවාවන්හි වැදගත්කම, ඒවාට ප්‍රවේශ විය හැකි ආකාරය සහ ඒවායින් තරුණ වැඩිහිටියන්ට ලබා දෙන ප්‍රතිලාභ ගවේෂණය කරනු ඇත.        
           </p>
@@ -87,19 +78,7 @@ export default function Confidential_S() {
 <br>
 </br>
 
-    <div className="flex justify-center items-center ">
-  <img
-    src={d2}
-    alt="Logo"
-    className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"  u can extend gap beetween image 
-  />
-  {/* <img
-    src={d3}
-    alt="fd"
-    className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-  /> */}
-</div>
-<br></br>
+
 <div className="mb-4">
   <p className="font-semibold">ශ්‍රී ලංකා සෞඛ්‍ය අමාත්‍යාංශය </p>
   <p><strong>සම්බන්ධතා අංකය:</strong> +94 11 269 1111</p>
@@ -138,13 +117,7 @@ export default function Confidential_S() {
   <p><strong>සම්බන්ධතා අංකය:</strong>+94 112 667 163/+94 112 665 277</p>
   <p><strong>විද්‍යුත් තැපැල් ලිපිනය:</strong> <a href="infonsacpsim@gmail.com" className="text-blue-500">infonsacpsim@gmail.com</a></p>
 <br></br>
-<div className="flex justify-center items-center">
-                    {/* <img
-                      src={d4}
-                      alt="Illustration"
-                      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
-                    /> */}
-                  </div>
+
                   <br></br>
                   <p className="font-semibold">ලිංගාශ්‍රිත රෝග පිළිබඳව රහස්‍ය පරික්ෂණ සහ උපදේශන සේවා මෙහිදී සිදු කර ගත හැක.</p>
 </div>
