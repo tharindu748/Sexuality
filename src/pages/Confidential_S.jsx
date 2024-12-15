@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
+import E3 from './Images/E1.jpg'
 
 
 export default function Confidential_S() {
@@ -41,6 +42,14 @@ export default function Confidential_S() {
         </header>
         <main className="p-6">
          <br></br>
+
+         <div className="flex justify-center items-center">
+           <img
+             src={E3}
+             alt="Illustration"
+             className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+           />
+         </div>
   
 
          <br></br>
