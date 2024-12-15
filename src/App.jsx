@@ -12,6 +12,7 @@ import ReproductiveRights from './pages/ReproductiveRights';
 import Respectful_communication from './pages/Respectful_communication';
 import MenstrualHealthandHygiene from './pages/MenstrualHealthandHygiene';
 import Consent from './pages/Consent';
+import Safe_practices from './pages/Safe_practices';
 import Open_Discussions_with_parents_and_the_community from './pages/Open_Discussions_with_parents_and_the_community';
 // import ReproductiveRights from './pages/ReproductiveRights';
 
@@ -29,6 +30,7 @@ export default function App() {
   <Route path="/Sexual_health" element={<Sexual_health />} />
   <Route path="/Seeking_Advice"element={<Seeking_Advice />} />
   <Route path="/Mental" element={<Mental />} /> 
+  <Route path="/Safe_practices" element={<Safe_practices />} /> 
   <Route path="/ReproductiveRights"element={<ReproductiveRights />} />
   <Route path="/Respectful_communication"element={<Respectful_communication />} />
   <Route path="/MenstrualHealthandHygiene" element={<MenstrualHealthandHygiene/>} />
