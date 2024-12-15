@@ -6,7 +6,7 @@ import Menstrual_health from './image/Menstrual_health.png';
 import Mental_well_being from './image/Mental_well_being.png';
 import Seeking_Advice_on_Sexual from './image/Seeking_Advice_on_Sexual.png';
 import Confidential_S from './image/Counseling_Services_for_Students.png';
-import Open_Discussions from './image/Open_Discussions.png';
+import Open_Discussions_with_parents_and_the_community from './image/Open_Discussions.png';
 import Respectful from './image/Respectful.png';
 import Consent from './image/Consent.png';
 import Safe_practices from './image/Safe_practices.png';
@@ -88,7 +88,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="text-center py-10">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-4xl font-extrabold sm:text-5xl">ලිංගික හා ප්‍රජනක සෞඛ්‍ය පිළිබඳ දැනුවත් කිරීම</h1>
+          <h1 className="text-4xl font-extrabold sm:text-5xl">ලිංගික හා ප්‍රජනන සෞඛ්‍ය පිළිබඳ දැනුවත් කිරීම</h1>
           <p className="mt-4 text-lg sm:text-xl">
           විශ්ව විද්‍යාල තරුණ ප්‍රජාව (වයස 20-27) දැනුවත් කිරීම සඳහා පුළුල් ඩිජිටල් ඉගෙනුම් මොඩියුලය.
           </p>
@@ -130,12 +130,12 @@ const topics = [
   { title: 'ලිංගික සෞඛ්‍ය ', image: Sexual_health, link: '/Sexual_health' },
   { title: 'කැමැත්ත', image: Consent, link: '/Consent' },
   { title: 'ආරක්ෂිත පිළිවෙත්', image: Safe_practices, link: '/Safe_practices' },
-  { title: 'ප්්‍රජනක අයිතිය', image: ReproductiveRights, link: '/ReproductiveRights' },
+  { title: 'ප්‍රජනන අයිතිය', image: ReproductiveRights, link: '/ReproductiveRights' },
   { title: 'ගෞරනනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
   { title: 'ඔසප් සෞඛ්‍ය ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
   { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
   { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
-  { title: 'විවෘත සාකච්ඡා', image: Open_Discussions, link: '/Open_Discussions' },
+  { title: 'විවෘත සාකච්ඡා', image: Open_Discussions_with_parents_and_the_community, link: '/Open_Discussions_with_parents_and_the_community' },
   { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
 ];
 
