@@ -131,7 +131,7 @@ const topics = [
   { title: 'කැමැත්ත', image: Consent, link: '/Consent' },
   { title: 'ආරක්ෂිත පිළිවෙත්', image: Safe_practices, link: '/Safe_practices' },
   { title: 'ප්‍රජනන අයිතිය', image: ReproductiveRights, link: '/ReproductiveRights' },
-  { title: 'ගෞරනනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
+  { title: 'ගෞරවනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
   { title: 'ඔසප් සෞඛ්‍ය ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
   { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
   { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
