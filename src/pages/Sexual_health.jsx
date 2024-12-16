@@ -1,5 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { FaMoon, FaSun } from 'react-icons/fa';
+import G1 from './Images/G1.jpg';
+import G2 from './Images/G2.jpg';
+import G3 from './Images/G3.jpg';
+import G4 from './Images/G4.jpg';
+import G5 from './Images/G5.jpg';
+import G6 from './Images/G6.jpg';
+import G7 from './Images/G7.jpg';
+import G8 from './Images/G8.jpg';
+import G9 from './Images/G9.jpg';
+import G10 from './Images/G10.jpg';
+
 
 export default function ReproductiveRights() {
   const [darkMode, setDarkMode] = useState(false);
@@ -62,7 +73,15 @@ export default function ReproductiveRights() {
             ලිංගික සෞඛ්‍යයට අයත් වේ.
           </p>
         </section>
-
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G1}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
         <section>
           <h2 className="text-xl font-semibold">ලිංගික සෞඛ්‍යය සහ ප්‍රජනක සෞඛ්‍යය අතර වෙනස</h2>
           <p className="mt-2 text-justify">
@@ -127,6 +146,15 @@ export default function ReproductiveRights() {
     <li>යෝනි මාර්ගය(vagina)- සංසර්ග ක්‍රියාවලිය සිදු වීම, වර්ධනය සම්පූර්ණ වූ භ්‍රෑණය ප්‍රසූතිය</li>
   </ul>
 </section>
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G2}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
 
 <section>
   <h2 className="text-xl font-semibold">ඩිම්බකෝෂ</h2>
@@ -134,6 +162,16 @@ export default function ReproductiveRights() {
   ස්ත්‍රී ජන්මාණු සෛල නිපදවීම සිදුකරනු ලබන්නේ ඩිම්බ කෝෂ මගිනි. ගැහැණු දරුවෙකු ඉපදෙන අවස්ථාවේ දී ඩිම්බ කෝෂයේ නොමේරු ඩිම්බ විශාල ගණනක් තැන්පත් වී ඇත. හැහැණු ළමයකු වැඩිවිය පැමිණීමෙන් පසු ඩිම්බයක් මෙරුණු තත්වයට පත් වී වීම පෝෂයෙන් මුදා හැරේ. මෙය ඩිම්බ මෝචනය නම් වේ. සෑම ඔසප් චක්‍රයකදීමය සාමාන්‍යයෙන් දින 28 කට වරක් මෙම ඩිම්බ මෝචන ක්‍රියාවලිය සිදු වේ.
   </p>
   <p>ඩිම්බකෝෂ මගින් සිදු කෙරෙන අනෙකුත් ප්‍රධාන කාර්ය වනුයේ ඊස්ට්‍රජන් සහ ප්‍රොජෙස්ටෙරෝන් හෝමෝන නිපදවීමයි.</p>
+</section>
+
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G3}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
 </section>
 
 <section>
@@ -160,6 +198,16 @@ export default function ReproductiveRights() {
 
 <section>
   <h2 className="text-xl font-semibold">ආර්තව චක්‍රය සහ ස්ත්‍රී ප්‍රජනක හෝර්මෝන.</h2>
+
+  <section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G4}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
   <p className="mt-2 text-justify">
   ආර්තව චක්‍රයේ පළමු වන සතිය තුළ ඊස්ට්‍රජන් හෝර්මෝනය වැඩිපුර ශ්‍රාවය නිසා ගර්භාශයේ ඇතුළත බිත්තිය ඝනකමින් වැඩිවන අතර එහි රුධිර වාහිනී වැඩිපුර වර්ධනය වේ. චක්‍රයේ දාහතරවන දිනය පමණ වන විට පරිණත ඩිම්බය ඩිම්බ කෝෂයේ මතුපිටට පැමිණේ. ආර්තව චක්‍රයේ දින 14-28 දක්වා කාලය තුළ ඊස්ට්‍රජන් සහ ප්‍රොජෙස්ටරෝන් හෝර්මෝන ශ්‍රාවය ඉහළ යයි. ප්‍රොජෙස්ටරෝන් හෝර්මෝනය මගින් ගර්භාශයේ බිත්තිවල රුධිර වාහිනී තව දුරටත් වර්ධනය වේ. මෙසේ ගර්භාශ ඇතුළු බිත්තියේ ඇති වන වෙනස් කම් නිසා සංසේචනය සිදු වුව හොත් වැඩෙන කළලයට පෝෂණය සැපයීමට සුදුසු පරිසරයක් ඇති වේ. ඩිම්බය සංසේචනය සිදු නොවුව හොත් 24 වන දිනයේ දී පමණ ඊස්ට්‍රජන් සහ ප්‍රොජෙස්ටරෝන් හෝර්මෝන ශ්‍රාවය පහළ යාම සිදු වේ. එහි ප්‍රතිඵලයක් ලෙස ගර්භාශයේ ඇතුළු බිත්තිය බිඳ වැටේ. රුධිරය සමග බිඳුණු පටක යෝනි මාර්ගය තුළින් පිටවේ. මෙම ක්‍රියාවලිය ආර්තවය හෙවත් ඔසප් වීම ලෙස හැඳින් වේ. එය දින 3-4 ක් පමණ පවතී. ද්විතියික ලිංගික ලක්ෂණ ඇති වීමෙන් පසු වැඩිවියට පත්වීමත් සමග ආරම්භ වන ආර්තව චක්‍රය වයස 45-50 දක්වා සිදු වේ.
   </p>
@@ -186,12 +234,31 @@ export default function ReproductiveRights() {
   <h3 className="text-xl font-semibold"> අපිවෘෂණය(Epididymis)</h3>
 
 </section>
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G5}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
 
 <section>
   <h2 className="text-xl font-semibold">වෘෂණ (Testes)</h2>
   <p className="mt-2 text-justify">
   උදර කුහරයට පහළින් වෘෂණ කෝෂ නම් සමෙන් සෑදුණු මල්ලක් තුළ වෘෂණ පිහිටා ඇත. උදර කුහරයේ වැඩි උෂ්ණත්වය නිසා ශුක්‍රාණු විනාශ විය හැකි බැවින් වෘෂණ මෙසේ පිටතින් පිහිටා ඇත. වෘෂණය තුළ ශුක්‍රධර නාලිකා රාශියක් පිහිටා ඇත. ශුක්‍රාණු නිපදවනු ලබන්නේ මෙම ශුක්‍රධර නාලිකා තුළය. වෘෂණ කෝෂ තුළ ඇති වෙනත් සෛල වර්ගයකින් ටෙස්ටොස්ටෙරෝන් නම් පුරුෂ ප්‍රජනක හෝර්මෝනය නිපද වේ.
   </p>
+</section>
+
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G6}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
 </section>
 
 <section>
@@ -224,6 +291,16 @@ export default function ReproductiveRights() {
 </section>
 
 <section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G7}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
+
+<section>
   <h1 className="text-xl font-semibold">ලිංගික පද්ධතිය ආශ්‍රිත රෝග</h1>
   <h2 className="text-xl font-semibold">1. ලිංගිකව සම්ප්‍රේෂණය විය හැකි රෝග </h2>
   <p className="mt-2 text-justify">
@@ -246,8 +323,29 @@ export default function ReproductiveRights() {
 </section>
 <section>
   <h2 className="text-xl font-semibold">ප්‍රජනක අවයවවල විවිධත්වය සහ සුන්දරත්වය</h2>
-  
+
 </section>
+  <section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G8}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
+
+<section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G9}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
+  
+
 
 <section>
   <h2 className="text-xl font-semibold">How to maintain vagina and penis hygiene.</h2>
@@ -288,6 +386,16 @@ export default function ReproductiveRights() {
  <ul className="list-disc list-inside mt-4 space-y-2"> <li> <strong>Cisgender:</strong> කෙනෙකුගේ ස්ත්‍රී පුරුෂ භාවය උපතේදී ඔහුට පැවරී ඇති ලිංගිකත්වයට ගැළපෙන විට මෙලෙස හඳුන්වයි. </li> <li> <strong>සංක්‍රාන්ති ලිංගිකයන්:</strong> කෙනෙකුගේ ස්ත්‍රී පුරුෂ භාවය උපතේදී ඔවුන්ට පවරා ඇති ලිංගිකත්වයට වඩා වෙනස් වන විට මෙලෙස හඳුන්වයි. </li> <li> <strong>ද්විමය නොවන:</strong> පිරිමි හෝ ගැහැණු යන කාණ්ඩවලට දැඩි ලෙස නොගැලපෙන ස්ත්‍රී පුරුෂ අනන්‍යතාවයකි. </li> <li> <strong>ස්ත්‍රී පුරුෂ භාවය, ස්ත්‍රී පුරුෂ තරලය, හෝ ලිංගභේදය:</strong> ද්විමය වර්ණාවලියෙන් පිටත අනන්‍යතා විස්තර කිරීමට පුද්ගලයන් භාවිත කළ හැකි වෙනත් යෙදුම් කිහිපයකි. </li> </ul> </section>
 
  <section> <h2 className="text-2xl font-bold">ලිංගික දිශානතිය</h2> <p className="mt-2 text-justify"> ලිංගික දිශානතිය පුද්ගලයෙකුගේ චිත්තවේගීය, ආදර හෝ ලිංගික ආකර්ෂණය අන් අයට විස්තර කරයි. එය ස්ත්‍රී පුරුෂ සමාජභාවයෙන් ස්වාධීන වන අතර එයට ඇතුළත් වන්නේ: </p> <ul className="list-disc list-inside mt-4 space-y-2"> <li> <strong>විෂමලිංගික (කෙලින්):</strong> වෙනස් ලිංගයේ පුද්ගලයන් වෙත ආකර්ෂණය. </li> <li> <strong>සමලිංගික (සමලිංගික හෝ සමලිංගික):</strong> එකම ලිංගයේ පුද්ගලයන් වෙත ආකර්ෂණය. </li> <li> <strong>ද්විලිංගික:</strong> ස්ත්‍රී පුරුෂ භාවයකට වඩා වැඩි පුද්ගලයන් වෙත ආකර්ෂණය. </li> </ul> </section>
+
+ <section>
+   <div className="flex justify-center items-center">
+    <img
+      src={G10}
+      alt="Illustration"
+      className="rounded-lg shadow-md max-w-[200px] max-h-[200px]"
+    />
+  </div>
+</section>
  <section> <h2 className="text-2xl font-bold">නිගමනය</h2> <p className="mt-2 text-justify"> ලිංගික සෞඛ්‍යය යනු ජීවිතයේ ශාරීරික, චිත්තවේගීය සහ සමාජීය මානයන් ඇතුළත් සමස්ත යහපැවැත්මේ වැදගත් අංගයකි. ආසාදන, අනපේක්ෂිත ගැබ් ගැනීම් සහ චිත්තවේගීය පීඩාවන් වැනි අවදානම් වලින් ආරක්ෂා වන අතරම පුද්ගලයන්ට ආරක්ෂිත, සම්මුතිවාදී සහ සම්පූර්ණ සබඳතා අත්විඳිය හැකි බව එය සහතික කරයි. අධ්‍යාපනය, සෞඛ්‍ය සේවා සඳහා ප්‍රවේශය සහ විවෘත සංවාද ප්‍රවර්ධනය කිරීමෙන්, අපට අපකීර්තිය බිඳ දැමිය හැකි අතර ඔවුන්ගේ ශරීර සහ සබඳතා පිළිබඳව දැනුවත් තීරණ ගැනීමට පුද්ගලයන්ට බලය ලබා දිය හැකිය. </p> <p className="mt-4 text-justify"> ලිංගික සෞඛ්‍යයට ප්‍රමුඛත්වය දීම විශ්වාසය, අන්‍යෝන්‍ය ගෞරවය සහ සතුට වර්ධනය කරයි, සෞඛ්‍ය සම්පන්න ප්‍රජාවන්ට සහ වඩාත් සාධාරණ සමාජයකට දායක වේ. මතක තබා ගන්න, ලිංගික සෞඛ්‍යය සඳහා ක්‍රියාශීලී ප්‍රවේශයක් ජීවිතයේ ගුණාත්මක භාවය වැඩි දියුණු කරනවා පමණක් නොව සෑම කෙනෙකුටම ගෞරවය, ගෞරවය සහ මානව හිමිකම් සඳහා සහාය වේ. </p> </section>
       </div>
     
