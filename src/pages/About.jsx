@@ -49,7 +49,7 @@ export default function About() {
   <p className="mt-4">
     ඔබට කිසියම් ප්‍රශ්නයක් ඇත්නම් හෝ වැඩිදුර සහාය අවශ්‍ය නම්, කරුණාකර අප හා සම්බන්ධ වන්න:
     <br />
-   <a href="http://localhost:5175/Contact" className="text-blue-500 underline">Contact</a>
+   <a href="https://sexualityapp.netlify.app/Contact" className="text-blue-500 underline">Contact</a>
   </p>
 </section>
 
