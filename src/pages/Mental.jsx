@@ -75,7 +75,7 @@ export default function Mental() {
 <section>
   <h3 className="text-xl font-semibold mt-8 text-justify">මානසික සෞඛ්‍ය පදනම් කරගෙන ඇතිවන රෝගයන්</h3>
   <p className="mt-4">මානසික සෞඛ්‍ය පදනම් කරගෙන ඇතිවන රෝගයන් කිහිපක් පහත පරිඳි දැක්විය හැක.</p>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>
       <strong>භින්නෝන්මාදය:</strong> භින්නෝන්මාදයෙන් පෙළෙන රෝගීන් (ජනගහනයෙන් 1% ක් පමණ) රෝගයේ ස්වභාවය නිසා ලිංගික දුර්වලතාවලට ගොදුරු වීමේ වැඩි ඉඩක් ඇත. ඉදිරිපස බාහිකයේ හයිපෝ-ඩොපමිනර්ජික් ක්‍රියාකාරකම් නිසා ඇති වන ඇවොලිෂන්, ඇන්හෙඩෝනියාව සහ මොට බලපෑම වැනි ආබාධයේ සෘණාත්මක රෝග ලක්ෂණ ලිංගික ජීවිතය භුක්ති විඳීමේ හැකියාව දැඩි ලෙස අඩාල කරයි.
     </li>
