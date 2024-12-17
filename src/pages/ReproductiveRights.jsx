@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import I1 from './Images/I1.jpg';
 
@@ -9,8 +9,28 @@ export default function ReproductiveRights() {
     setDarkMode(!darkMode);
   };
 
+  // Check localStorage for theme preference
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      setDarkMode(true);
+    }
+  }, []);
+
+  // Store the theme preference
+  useEffect(() => {
+    if (darkMode) {
+      localStorage.setItem('theme', 'dark');
+      document.documentElement.classList.add('dark'); // Add dark mode class to root
+    } else {
+      localStorage.setItem('theme', 'light');
+      document.documentElement.classList.remove('dark'); // Remove dark mode class from root
+    }
+  }, [darkMode]);
+
+
   return (
-    <div className={`min-h-screen p-8 ${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'}`}>
+     <div className={darkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
       <header className="flex justify-between items-center p-4 shadow-md">
         <h1 className="text-2xl font-bold">ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම</h1>
         <div className="flex justify-end">

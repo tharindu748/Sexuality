@@ -40,9 +40,11 @@ export default function ReproductiveRights() {
   }, [darkMode]);
 
   return (
-    <div className={`min-h-screen p-8 ${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-900'}`}>
+    <div className={darkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
 
 <header className="flex justify-between items-center p-4 shadow-md">
+
+
 <h1 className="text-2xl font-bold">ලිංගික සෞඛ්‍ය</h1>
       
 
@@ -57,6 +59,8 @@ export default function ReproductiveRights() {
           </button>
         </div>
         </header>
+<main className="p-6">
+        <br></br>
 
         <section>
 
@@ -406,6 +410,8 @@ export default function ReproductiveRights() {
 </section>
 <br></br>
  <section> <h2 className="text-2xl font-bold">නිගමනය</h2> <p className="mt-2 text-justify"> ලිංගික සෞඛ්‍යය යනු ජීවිතයේ ශාරීරික, චිත්තවේගීය සහ සමාජීය මානයන් ඇතුළත් සමස්ත යහපැවැත්මේ වැදගත් අංගයකි. ආසාදන, අනපේක්ෂිත ගැබ් ගැනීම් සහ චිත්තවේගීය පීඩාවන් වැනි අවදානම් වලින් ආරක්ෂා වන අතරම පුද්ගලයන්ට ආරක්ෂිත, සම්මුතිවාදී සහ සම්පූර්ණ සබඳතා අත්විඳිය හැකි බව එය සහතික කරයි. අධ්‍යාපනය, සෞඛ්‍ය සේවා සඳහා ප්‍රවේශය සහ විවෘත සංවාද ප්‍රවර්ධනය කිරීමෙන්, අපට අපකීර්තිය බිඳ දැමිය හැකි අතර ඔවුන්ගේ ශරීර සහ සබඳතා පිළිබඳව දැනුවත් තීරණ ගැනීමට පුද්ගලයන්ට බලය ලබා දිය හැකිය. </p> <p className="mt-4 text-justify"> ලිංගික සෞඛ්‍යයට ප්‍රමුඛත්වය දීම විශ්වාසය, අන්‍යෝන්‍ය ගෞරවය සහ සතුට වර්ධනය කරයි, සෞඛ්‍ය සම්පන්න ප්‍රජාවන්ට සහ වඩාත් සාධාරණ සමාජයකට දායක වේ. මතක තබා ගන්න, ලිංගික සෞඛ්‍යය සඳහා ක්‍රියාශීලී ප්‍රවේශයක් ජීවිතයේ ගුණාත්මක භාවය වැඩි දියුණු කරනවා පමණක් නොව සෑම කෙනෙකුටම ගෞරවය, ගෞරවය සහ මානව හිමිකම් සඳහා සහාය වේ. </p> </section>
+
+</main>
       </div>
     
   );
