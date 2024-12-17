@@ -17,13 +17,13 @@ const contacts = [
   {
     // name: "Kusalaan",
     id: "2021ba24917",
-    topic: "I.ආරක්ෂිත පිළිවෙත් (Safe Practices )",
+    topic: "ආරක්ෂිත පිළිවෙත් I (Safe Practices )",
     email: "2021ba24917@stu.cmb.ac.lk",
   },
   {
     // name: "Deshanjaya ",
     id: "2021ba25345",
-    topic: "II.ආරක්ෂිත පිළිවෙත් (Safe Practices )",
+    topic: "ආරක්ෂිත පිළිවෙත් II (Safe Practices )",
     email: "2021ba25345@stu.cmb.ac.lk",
   },
 
