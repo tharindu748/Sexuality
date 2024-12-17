@@ -43,7 +43,7 @@ export default function ReproductiveRights() {
           </button>
         </div>
       </header>
-      <main>
+      <main className= "p-4">
 
 
 <br></br>
