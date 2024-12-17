@@ -41,7 +41,7 @@ export default function MenstrualHealthandHygiene() {
           </button>
         </header>
     
- <main className="p-6">
+ <main className="p-4">
 
 
 
@@ -59,7 +59,7 @@ export default function MenstrualHealthandHygiene() {
   <br></br>
           
           <p className='text-justify'>
-            <strong>About:</strong> ÷ තරුණ වැඩිහිටි (වයස 20-27) සදහා ඔසප් චක්‍රය හා සනීපාරක්ෂාව පිළිබඳව දැනුවත් කිරීම,ඒ ආශ්‍රිත මනා කළමනාකරණය හා ඒ ආශ්‍රිත පවතින ගැටලු යනාදිය සම්බන්ධව මෙහිදී සාකච්ඡා කරනු ලබයි.         
+            <strong>හැඳින්වීම:</strong> ÷ තරුණ වැඩිහිටි (වයස 20-27) සදහා ඔසප් චක්‍රය හා සනීපාරක්ෂාව පිළිබඳව දැනුවත් කිරීම,ඒ ආශ්‍රිත මනා කළමනාකරණය හා ඒ ආශ්‍රිත පවතින ගැටලු යනාදිය සම්බන්ධව මෙහිදී සාකච්ඡා කරනු ලබයි.         
           </p>
 
           <p className="mt-4 tec text-justify">
