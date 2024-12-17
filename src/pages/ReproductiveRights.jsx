@@ -32,7 +32,7 @@ export default function ReproductiveRights() {
   return (
      <div className={darkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
       <header className="flex justify-between items-center p-4 shadow-md">
-        <h1 className="text-2xl font-bold">ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම</h1>
+        <h1 className="text-2xl font-bold">ප්‍රජනන අයිතිවාසිකම්</h1>
         <div className="flex justify-end">
           <button
             onClick={toggleDarkMode}
@@ -45,7 +45,6 @@ export default function ReproductiveRights() {
       </header>
       <main>
 
- <h3 className="text-xl font-semibold mt-8">ප්‍රජනන අයිතිවාසිකම්</h3> 
 
 <br></br>
 <div className="flex justify-center items-center">

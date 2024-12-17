@@ -132,7 +132,7 @@ const topics = [
   { title: 'ආරක්ෂිත පිළිවෙත්', image: Safe_practices, link: '/Safe_practices' },
   { title: 'ප්‍රජනන අයිතිය', image: ReproductiveRights, link: '/ReproductiveRights' },
   { title: 'ගෞරවනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
-  { title: 'ඔසප් සෞඛ්‍ය ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
+  { title: 'ඔසප් සෞඛ්‍යය සහ සනීපාරක්ෂාව ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
   { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
   { title: 'විවෘත සාකච්ඡා', image: Open_Discussions_with_parents_and_the_community, link: '/Open_Discussions_with_parents_and_the_community' },
   { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
