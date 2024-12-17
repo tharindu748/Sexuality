@@ -32,7 +32,7 @@ export default function Mental() {
     <div>
       <div className={darkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
         <header className="flex justify-between items-center p-4 shadow-md">
-          <h1 className="text-2xl font-bold">ඔසප් සෞඛ්‍යය සහ සනීපාරක්ෂාව</h1>
+          <h1 className="text-2xl font-bold">ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම</h1>
           <button
             onClick={toggleDarkMode2}
             className="text-2xl p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2"
@@ -42,7 +42,6 @@ export default function Mental() {
         </header>
         <main className="p-6">
         <section>
-  <h3 className="text-xl font-semibold mt-8">ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම</h3>
   <p className="mt-4">
     “ලිංගික සෞඛ්‍යය යනු කෙනෙකුගේ ලිංගිකත්වයට අදාළව කායික, මානසික, චිත්තවේගීය සහ සමාජීය යහ පැවැත්මයි.” පුද්ගලයාගේ සාමාන්‍ය සෞඛ්‍ය, යහපැවැත්ම සහ සමස්ත ජීවන තත්ත්වය සඳහා මෙය අත්‍යවශ්‍ය සාධකයකි.
   </p>
