@@ -41,15 +41,15 @@ export default function Consent() {
             {darkMode ? <FaSun /> : <FaMoon />}
           </button>
         </header>
-        <main className="p-6">
+        <main className="p-4">
         <section>
   <h3 className="text-xl font-semibold mt-8">කැමැත්ත යනු කුමක්ද?</h3>
-  <p className="mt-4">
+  <p className="mt-2 text-justify">
     කැමැත්ත යන්නෙන් අදහස් කරන්නේ අවසර දීම හෝ යම් දෙයකට කැමැත්තෙන් එකඟ වීමයි. ලිංගික සබඳතා සහ ප්‍රජනන අයිතිවාසිකම් වලදී, කැමැත්ත යනු කිසිදු බලයකින්, තර්ජනයකින් හෝ පීඩනයකින් තොරව නිදහසේ තේරීම් කිරීමයි. අන්‍යෝන්‍ය ගෞරවය සහතික කරමින් පාර්ශ්වකරුවන් දෙදෙනාම පැහැදිලිව සන්නිවේදනය කිරීම සහ සිදුවන්නේ කුමක්ද යන්න පිළිබඳව එකඟ වීම අත්‍යවශ්‍ය වේ.
   </p>
 
   <h3 className="text-xl font-semibold mt-8">ලිංගික සබඳතාවලදී කැමැත්තේ වැදගත්කම</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y- text-justify">
     <li>පාර්ශවකරුවන් දෙදෙනාටම ආරක්ෂිත හා ගෞරවනීය හැඟීමක් ඇති බව කැමැත්ත සහතික කරයි.</li>
     <li>එය හානිය, අපයෝජනය හෝ සූරාකෑම වළක්වයි.</li>
     <li>එය හවුල්කරුවන් අතර විශ්වාසය සහ අවබෝධය ගොඩනඟයි.</li>
@@ -58,14 +58,14 @@ export default function Consent() {
   </ul>
 
   <h3 className="text-xl font-semibold mt-8">කැමැත්ත සහ ප්‍රජනන අයිතිවාසිකම්</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>පවුල් සැලසුම්: උපත් පාලන ක්‍රම පිළිබඳ තීරණ වලට දෙදෙනාම එකඟ විය යුතුය (උදා: උපත් පාලනය භාවිතා කිරීම).</li>
     <li>ගැබ් ගැනීම: නීතියට අනුව ගැබ් ගැනීමක් දිගටම පවත්වාගෙන යාම හෝ අවසන් කිරීම තීරණය කිරීමට පුද්ගලයෙකුට අයිතියක් ඇත.</li>
     <li>වෛද්‍ය ක්‍රියා පටිපාටි: සාරවත් ප්‍රතිකාර හෝ විෂබීජහරණය වැනි ප්‍රජනනය හා සම්බන්ධ ප්‍රතිකාර සඳහා කැමැත්ත අවශ්‍ය වේ.</li>
   </ul>
 
   <h3 className="text-xl font-semibold mt-8">ලිංගික සබඳතා වල කැමැත්ත පිළිබඳ ප්‍රධාන මූලධර්ම</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>කැමැත්ත පැහැදිලි විය යුතුය: "ඔව්" පැවසීම හෝ ක්‍රියාවන් තුළින් එකඟතාවයක් පෙන්වීම.</li>
     <li>එය නිදහසේ ලබා දිය යුතුය: පීඩනය, තර්ජන හෝ මත්පැන් හෝ මත්ද්‍රව්‍ය වල බලපෑමකින් තොරව.</li>
     <li>කැමැත්ත අඛණ්ඩව පවතී: ක්‍රියාවලිය අතරතුර පවා ඕනෑම වේලාවක එය ඉල්ලා අස්කර ගත හැකිය.</li>
@@ -85,7 +85,7 @@ export default function Consent() {
   <br></br>
 
   <h3 className="text-xl font-semibold mt-8">කැමැත්ත පිළිබඳ මිථ්‍යාවන් සහ වැරදි වැටහීම්</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>මිථ්‍යාව: සම්බන්ධතාවයක සිටීම යනු ස්වයංක්‍රීය කැමැත්තයි.</li>
     <li>සත්‍යය: සෑම අවස්ථාවකම කැමැත්ත ඉල්ලා සිටිය යුතුය.</li>
     <li>මිථ්‍යාව: යම් ආකාරයකින් ඇඳුම් ඇඳීම යන්නෙන් අදහස් කරන්නේ යමෙකු "එය ඉල්ලා සිටින" බවයි.</li>
@@ -105,22 +105,20 @@ export default function Consent() {
            />
          </div>
   <br></br>
-
-
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>කැමැත්ත ලබා ගැනීමේ වයස: ශ්‍රී ලංකාවේ, කැමැත්ත ලබා ගැනීමේ නීත්‍යානුකූල වයස අවුරුදු 16 කි. මෙම වයසට අඩු කෙනෙකු සමඟ ලිංගික ක්‍රියාකාරකම්වල යෙදීම පුද්ගලයා එකඟ වුවද ව්‍යවස්ථාපිත ස්ත්‍රී දූෂණයක් ලෙස සැලකේ.</li>
     <li>ලිංගික හිංසනය: කැමැත්තකින් තොරව ඕනෑම ලිංගික ක්‍රියාකාරකමක් ශ්‍රී ලංකාවේ නීතිය අනුව අපරාධයකි. ස්ත්‍රී දූෂණ, ලිංගික අඩන්තේට්ටම් සහ අපයෝජන යනාදිය මෙයට ඇතුළත් ය.</li>
   </ul>
 
   <h3 className="text-xl font-semibold mt-8">ප්‍රජනන අයිතිවාසිකම්</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>උපත් පාලන ක්‍රම සඳහා ප්‍රවේශය නීත්යානුකූල හා ආරක්ෂා කර ඇත.</li>
     <li>මවගේ ජීවිතය අවදානමට ලක්වූ විට හැර, ගබ්සාව ශ්‍රී ලංකාවේ නීති විරෝධී ය.</li>
     <li>කැමැත්තෙන් තොරව බලහත්කාරයෙන් විෂබීජහරණය කිරීම හෝ වෛද්‍ය ක්රියා පටිපාටි නීතිය යටතේ දඬුවම් ලැබිය හැකිය.</li>
   </ul>
 
   <h3 className="text-xl font-semibold mt-8">ලිංගික සබඳතා වල කැමැත්ත සන්නිවේදනය කිරීම සහ ගරු කිරීම</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>සෑම විටම අසන්න: "ඔබට මෙය සුවපහසුද?" හෝ "මෙයට ඔබ කැමති ද?"</li>
     <li>ලැබෙන ප්‍රතිචාර වලට ඇහුම්කන් දී ඒ අනුව කටයුතු කරන්න.</li>
     <li>"නැත" යන්නට ගරු කරන්න, එය ඔබ බලාපොරොත්තු වූ දේ නොවුනත්.</li>
@@ -140,21 +138,18 @@ export default function Consent() {
   <br></br>
 
   <h3 className="text-xl font-semibold mt-8">අධ්‍යාපන හා දැනුවත් කිරීමේ කාර්යභාරය</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>කැමැත්ත ගැන යෞවනයන්ට ඉගැන්වීම තුළින් ලිංගික හිංසනය සහ වැරදි වැටහීම් අඩු කළ හැකිය.</li>
     <li>පාසල්, විශ්ව විද්‍යාල සහ ප්‍රජාවන්ට ලිංගික අයිතිවාසිකම් සහ වගකීම් පිළිබඳ වැඩමුළු පැවැත්විය හැකිය.</li>
     <li>සෞඛ්‍ය සම්පන්න සබඳතා දිරිමත් කිරීම සඳහා කැමැත්ත පිළිබඳ දැනුවත් කිරීමේදී සීමා මායිම්, ගෞරවය සහ ස්වයං සවිබල ගැන්වීම වැනි මාතෘකා ආමන්ත්‍රණය කළ යුතුය.</li>
   </ul>
 
   <h3 className="text-xl font-semibold mt-8">ශ්‍රී ලංකාවේ උපකාර සහ මාර්ගෝපදේශන සඳහා සම්පත්</h3>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>ක්ෂණික ඇමතුම්: WIN (ලිංගික හිංසනය, හිරිහැර සහ අපයෝජනයට ගොදුරු වූවන් සඳහා සහාය සපයයි.) – 011 2671411</li>
     <li>නීතිමය සහාය: ජාතික නීති ආධාර කොමිෂන් සභාව</li>
     <li>සෞඛ්‍ය මධ්‍යස්ථාන: පවුල් සැලසුම් සහ ප්‍රජනන සෞඛ්‍ය සායන</li>
   </ul>
-
-
-
 </section>
         </main>
       </div>
