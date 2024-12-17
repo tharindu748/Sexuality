@@ -118,7 +118,7 @@ export default function Mental() {
     මෙම උපාය මාර්ග කෙරෙහි අවධානය යොමු කිරීමෙන්, පුද්ගලයන්ට සහ ජෝඩුවලට ලිංගිකත්වය හා සම්බන්ධ ඔවුන්ගේ මානසික යහපැවැත්ම වැඩිදියුණු කළ හැකි අතර තමන් සහ ඔවුන්ගේ සහකරුවන් සමඟ වඩාත් සෞඛ්‍ය සම්පන්න, වඩාත් තෘප්තිමත් සම්බන්ධතාවයක් ඇති කර ගත හැකිය.
   </p>
   <p className="mt-4">මේ සඳහා තොරතුරු ලබාගත හැකි අංශයන් ලෙස.</p>
-  <ul className="list-disc list-inside mt-4 space-y-2">
+  <ul className="list-disc list-inside mt-2 space-y-2 text-justify">
     <li>Trevor Project - LGBTQIA+ තරුණයින් සඳහා ලාභ නොලබන සංවිධානයකි.</li>
     <li>ජාතික Queer Asian Pacific Islander Alliance</li>
     <li>ද්විලිංගිකත්වය පිළිබඳ ඇමරිකානු ආයතනය.</li>
