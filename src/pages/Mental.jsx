@@ -5,28 +5,28 @@ import M3 from './Images/M3.jpg';
 
 export default function Mental() {
   const [darkMode, setDarkMode] = useState(false);
-// Toggle dark mode
-const toggleDarkMode2 = () => {
-  setDarkMode(!darkMode);
-};
 
-// Check localStorage for theme preference
-useEffect(() => {
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme === 'dark') {
-    setDarkMode(true);
-  }
-}, []);
+  // Toggle dark mode
+  const toggleDarkMode2 = () => {
+    setDarkMode(!darkMode);
+  };
 
-// Store the theme preference
-useEffect(() => {
-  if (darkMode) {
-    localStorage.setItem('theme', 'dark');
-  } else {
-    localStorage.setItem('theme', 'light');
-  }
-}, [darkMode]);
+  // Check localStorage for theme preference
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      setDarkMode(true);
+    }
+  }, []);
 
+  // Store the theme preference
+  useEffect(() => {
+    if (darkMode) {
+      localStorage.setItem('theme', 'dark');
+    } else {
+      localStorage.setItem('theme', 'light');
+    }
+  }, [darkMode]);
 
   return (
     <div>
@@ -81,15 +81,12 @@ useEffect(() => {
     </li>
     <li>
       <strong>මානසික අවපීඩනය:</strong> ජනගහනයෙන් 10% ක් පමණ ඔවුන්ගේ ජීවන තත්ත්වය සහ ක්‍රියාකාරිත්වය බරපතල ලෙස අඩාල කරන එපිසෝඩික් මානසික අවපීඩනයෙන් පෙළෙනවා. ලිබිඩෝ අඩුවීම ප්‍රධාන මානසික අවපීඩනය සමඟ නිතර සම්බන්ධ වේ. මානසික අවපීඩනයෙන් පෙළෙන පුද්ගලයින්ට ලිංගික ආශාව පවත්වා ගැනීමට හෝ සුරාන්තයට පත්වීමේ හැකියාව අඩු විය හැකිය. දැඩි මානසික අවපීඩනයෙන් පෙළෙන පිරිමින් තුළ, ශිෂේණය ඍජු වීමේ වේගය 90% දක්වා ළඟා විය හැකිය.
-    </li>
-  </ul>
-</section>
-
-<section>
-  <h3 className="text-xl font-semibold mt-8">කාංසාව</h3>
-  <p className="mt-4">
+   </li>
+  <li>
+      <strong>කාංසාව:</strong>
+ 
     ලිංගික දුර්වලතා වර්ධනය කිරීමේදී කාංසාව සැලකිය යුතු කාර්යභාරයක් ඉටු කරයි. කාර්ය සාධනය පිළිබඳ කාංසාව ප්‍රසිද්ධ සංසිද්ධියකි, විශේෂයෙන් ශිෂේණය ඍජු ප්‍රතිචාරය සහ ශිෂේණය ඍජු වීමේ කල්පැවැත්ම ගැන කනස්සල්ලට පත්වන පිරිමින්. කාංසාව වැඩි කරන ශිෂේණය ඍජු අක්‍රියතාවයේ තවත් මනෝවිද්‍යාත්මක බලපෑමක් වන්නේ නර්සිසිස්ටික් කැළඹීමයි. පුද්ගලයාගේ ආත්ම අභිමානය දිගටම පිරිහීමට ලක් විය හැකි අතර, ඔහු සහ ඔහුගේ සහකරු ගැන සැලකිලිමත් වේ. මෙය පුද්ගලයාගේ චර්යාත්මක වෙනස්කම් වලට තුඩු දිය හැකිය, එනම් සමීප සබඳතා වළක්වා ගැනීම සහ කෝපය පිටවීම වැනි. මෙම සාධක වැඩි සාංකාව සහ ශිෂේණය ඍජු වීම සඳහා දායක වන අතර, එහි ප්රතිඵලයක් වශයෙන් අසාර්ථක වීමේ විෂම චක්රයක් සහ කාංසාව ඉහළ නංවයි.
-  </p>
+  </li></ul>
 </section>
 <br></br><div className="flex justify-center items-center">
   <img
@@ -120,7 +117,7 @@ useEffect(() => {
   <p className="mt-4">
     මෙම උපාය මාර්ග කෙරෙහි අවධානය යොමු කිරීමෙන්, පුද්ගලයන්ට සහ ජෝඩුවලට ලිංගිකත්වය හා සම්බන්ධ ඔවුන්ගේ මානසික යහපැවැත්ම වැඩිදියුණු කළ හැකි අතර තමන් සහ ඔවුන්ගේ සහකරුවන් සමඟ වඩාත් සෞඛ්‍ය සම්පන්න, වඩාත් තෘප්තිමත් සම්බන්ධතාවයක් ඇති කර ගත හැකිය.
   </p>
-  <p className="mt-4">මේ සඳහා තොරතුරු ලබාගත හැක.</p>
+  <p className="mt-4">මේ සඳහා තොරතුරු ලබාගත හැකි අංශයන් ලෙස.</p>
   <ul className="list-disc list-inside mt-4 space-y-2">
     <li>Trevor Project - LGBTQIA+ තරුණයින් සඳහා ලාභ නොලබන සංවිධානයකි.</li>
     <li>ජාතික Queer Asian Pacific Islander Alliance</li>
@@ -131,6 +128,13 @@ useEffect(() => {
     <li>HIV පරීක්ෂණ අඩවි සහ සත්කාර සේවා ස්ථානගත කරන්නා.</li>
     <li>RAINN - ස්ත්‍රී දූෂණ අපයෝජනය සහ අනියම් සම්බන්ධතා ජාතික ජාලය</li>
   </ul>
+  <br></br>
+    <h2 className="text-xl font-semibold mb-4"> නිගමනය</h2>
+    <p className='text-justify'> 
+    සමස්තයක් වශයෙන්, ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම යනු පුද්ගල අනන්‍යතාවය, සමාජ බලපෑම්, සම්බන්ධතා ගතිකත්වය සහ අතීත කම්පන කෙරෙහි අවධානය යොමු කළ යුතු බහුවිධ ගැටලුවකි.
+    මෙම අභියෝග ඵලදායී ලෙස සැරිසැරීමට පුද්ගලයන්ට උපකාර කිරීමේදී උපකාරක උපදේශන සහ චිකිත්සක භාවිතයන් ඉතා වැදගත් කාර්යභාරයක් ඉටු කරයි. අවබෝධය සහ පිළිගැනීම ප්‍රවර්ධනය කරන ඇතුළත් පරිසරයක් පෝෂණය කිරීමෙන්, ඔවුන්ගේ ලිංගිකත්වය හා සම්බන්ධ ගැටලු සමඟ පොරබදමින් සිටින අයගේ මානසික යහපැවැත්ම වැඩි දියුණු කළ හැකිය.
+    </p><br>
+    </br>
 </section>
 
 
