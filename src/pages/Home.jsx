@@ -134,9 +134,9 @@ const topics = [
   { title: 'ගෞරවනීය සන්නිවේදනය', image: Respectful, link: '/Respectful_communication' },
   { title: 'ඔසප් සෞඛ්‍ය ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
   { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
-  { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
   { title: 'විවෘත සාකච්ඡා', image: Open_Discussions_with_parents_and_the_community, link: '/Open_Discussions_with_parents_and_the_community' },
   { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
+  { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
 ];
 
 

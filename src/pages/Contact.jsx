@@ -17,9 +17,16 @@ const contacts = [
   {
     // name: "Kusalaan",
     id: "2021ba24917",
-    topic: "ආරක්ෂිත පිළිවෙත් (Safe Practices )",
+    topic: "I.ආරක්ෂිත පිළිවෙත් (Safe Practices )",
     email: "2021ba24917@stu.cmb.ac.lk",
   },
+  {
+    // name: "Deshanjaya ",
+    id: "2021ba25345",
+    topic: "II.ආරක්ෂිත පිළිවෙත් (Safe Practices )",
+    email: "2021ba25345@stu.cmb.ac.lk",
+  },
+
   {
     // name: "Dasuni",
     id: "2021ba24931",
@@ -61,12 +68,6 @@ const contacts = [
     id: "2021ba24942",
     topic: "ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම ( Mental Well-being Related to Sexuality)",
     email: "2021ba24942@stu.cmb.ac.lk",
-  },
-  {
-    // name: "Deshanjaya ",
-    id: "2021ba25345",
-    topic: "ආරක්ෂිත පිළිවෙත් (Safe Practices )",
-    email: "2021ba25345@stu.cmb.ac.lk",
   },
 
 ];
