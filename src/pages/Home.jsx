@@ -134,9 +134,9 @@ const topics = [
   { title: 'ගෞරවාන්විත සන්නිවේදනයේ ප්‍රායෝගික වැදගත්කම', image: Respectful, link: '/Respectful_communication' },
   { title: 'ඔසප් සෞඛ්‍යය සහ සනීපාරක්ෂාව ', image: Menstrual_health, link: '/MenstrualHealthandHygiene' },
   { title: 'සිසුන් සදහා උපදෙස්', image: Confidential_S, link: '/Confidential_S' },
-  { title: 'විවෘත සාකච්ඡා', image: Open_Discussions_with_parents_and_the_community, link: '/Open_Discussions_with_parents_and_the_community' },
-  { title: 'උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
-  { title: 'මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
+  { title: 'ලිංගික සහ ප්‍රජනන සෞඛ්‍යය පිලිබදව දෙමාපියන් සහා ප්‍රජා ව දැනුවත් කිරිම', image: Open_Discussions_with_parents_and_the_community, link: '/Open_Discussions_with_parents_and_the_community' },
+  { title: 'ලිංගික සෞඛ්‍ය කරුණු පිළිබඳ උපදෙස් ලබා ගැනීම', image: Seeking_Advice_on_Sexual, link: '/Seeking_Advice' },
+  { title: 'ලිංගිකත්වය හා සම්බන්ධ මානසික යහපැවැත්ම', image: Mental_well_being, link: '/Mental' },
 ];
 
 

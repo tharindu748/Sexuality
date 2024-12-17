@@ -32,7 +32,7 @@ export default function Open_Discussions_with_parents_and_the_community() {
     <div>
       <div className={darkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
         <header className="flex justify-between items-center p-4 shadow-md">
-        <h1 className="text-2xl font-bold mb-4">ලිංගික සහ ප්‍රජනන් සෞඛ්‍යය පිලිබදව දේමාපියන් සහා ප්‍රජා ව දැනුවත් කිරිම</h1>
+        <h1 className="text-2xl font-bold mb-4">ලිංගික සහ ප්‍රජනන සෞඛ්‍යය පිලිබදව දේමාපියන් සහා ප්‍රජා ව දැනුවත් කිරිම</h1>
           <button
             onClick={toggleDarkMode2}
             className="text-2xl p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2"
